@@ -24,5 +24,5 @@ public class OccupationDTO {
     @NotEmpty
     private Double salary;
     @Enumerated(EnumType.ORDINAL)
-    private ClearanceType clearanceType;
+    private ClearanceType clearance;
 }

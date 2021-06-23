@@ -30,9 +30,11 @@ public class PersonDTO {
     @CPF
     private String cpf;
 
+    @Valid
+    @NotEmpty
     private String birthDate;
 
     @Valid
     @NotEmpty
-    private Occupation occupation;
+    private OccupationDTO occupation;
 }
